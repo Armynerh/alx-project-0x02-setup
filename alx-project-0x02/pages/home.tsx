@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Card from "@/components/common/Card";
 import PostModal from "@/components/common/PostModal";
+import Header from "@/components/layout/Header";
 import { Post } from "@/interfaces";
 const HomePage: React.FC = () => {
   const [showModal, setShowModal] = useState(false);
@@ -12,6 +13,7 @@ const HomePage: React.FC = () => {
 
   return (
     <div className="max-w-3xl mx-auto p-6">
+      <Header />
       <h1 className="text-2xl font-bold mb-4">Welcome to the Home Page</h1>
 
       {/* Button to open modal */}
