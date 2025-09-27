@@ -1,6 +1,6 @@
 # Next.js Project Setup and Basics.
 
-A Basic Project Setup to learn Next.js.  
+A Basic Project Setup to learn Next.js.
 
 ---
 
