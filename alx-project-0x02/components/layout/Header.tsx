@@ -4,8 +4,9 @@ const Header: React.FC = () => {
     <header>
       <h1>My Application Header</h1>
       <nav>
-        <a href="/home">Home</a> | <a href="/about">About</a> | <a href="/contact">Contact</a>
+      <Link href="/home">Home</Link>| <Link href="/about">About</Link> | <Link href="/contact">Contact</Link>
       </nav>
     </header>
   );
 }
+export default Header;
