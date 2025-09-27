@@ -1,6 +1,3 @@
-// pages/users.tsx
-
-import React from "react";
 import UserCard from "@/components/common/UserCard";
 import { UserProps } from "@/interfaces";
 
@@ -31,5 +28,7 @@ export const getStaticProps = async () => {
     },
   };
 };
+
+getStaticProps(); 
 
 export default UsersPage;
